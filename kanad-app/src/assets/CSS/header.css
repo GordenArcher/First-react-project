@@ -1,0 +1,120 @@
+.header{
+    max-width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    border: 1px solid hwb(0 80% 20%);
+    background-color: #eee;
+    position: relative;
+}
+
+.fixed{
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav_bar{
+    padding: 10px 40px;
+    display: flex;
+}
+
+.nav-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    position: relative;
+    max-width: 100%;
+    padding: 10px 40px;
+}
+
+.logo{
+    font-size: 1.2rem;
+    position: relative;
+    display: block;
+    padding: 0 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+    font-size: 1.7rem;
+    color: #000;
+    transition: ease .3s;
+}
+
+.logo a:hover{
+    background-color: #00000020;
+    border-radius: 3px ;
+}
+
+.logo a span:first-child{
+    color: salmon;
+}
+
+.logo a span{
+    color: blue;
+}
+
+.nav_links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_links ul li{
+    list-style-type: none;
+}
+
+.nav_links ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4rem;
+    color: hsla(240, 100%, 50%, 0.432);
+    transition: ease .3s;
+    display: block;
+    padding: 10px 30px;
+}
+
+.nav_links ul li a:hover{
+    color: hsl(240, 100%, 50%);
+}
+
+.nav_links ul li a:active{
+    color: hsl(240, 100%, 50%);
+}
+
+.user_Profile{
+    position: relative;
+    max-width: 80px;
+}
+
+.profile_img{
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: -15px;
+    background-color: #ddd;
+}
+
+.profileImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.time_date h3{
+    display: inline;
+    margin-left: 7px;
+}

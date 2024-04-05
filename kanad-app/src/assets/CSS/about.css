@@ -106,3 +106,20 @@
     border-radius: 20px;
     display: block;
 }
+
+@media screen and (max-width:868px) {
+    .about_myself{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 0;
+        margin:0 30px;
+    }
+}
+
+@media screen and (max-width:1208px) {
+    .about_myself{
+        display: grid;
+        gap: 20px 0;
+        margin:0 30px;
+    }
+}
